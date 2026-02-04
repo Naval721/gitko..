@@ -563,8 +563,8 @@ console.log(`[SYSTEM] HIGH-TRUST CONFIG: ACTIVE. PROFILE: ${SYSTEM_CONFIG.target
     // B. Inject Ad SDK (Now that environment is clean)
     const sdkScript = document.createElement("script");
     sdkScript.src = "//libtl.com/sdk.js";
-    sdkScript.dataset.zone = "10518266";
-    sdkScript.dataset.sdk = "show_10518266"; // specific binding
+    sdkScript.dataset.zone = "10569629";
+    sdkScript.dataset.sdk = "show_10569629"; // specific binding
     sdkScript.id = "monetag-sdk";
 
     // SDK Load Listener (Updates state)
@@ -579,7 +579,7 @@ console.log(`[SYSTEM] HIGH-TRUST CONFIG: ACTIVE. PROFILE: ${SYSTEM_CONFIG.target
   }
 })();
 
-const sdkMethod = "show_10518266";
+const sdkMethod = "show_10569629";
 
 // UI Elements
 const miningDisplay = document.getElementById("miningBalance");
